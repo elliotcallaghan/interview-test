@@ -1,0 +1,103 @@
+#testQuestions {
+    table-layout: fixed
+}
+
+#interviewTest td {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    vertical-align: top;
+}
+
+#interviewTest th {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray
+}
+
+#interviewTest th:first-child,
+#interviewTest td:first-child {
+    border-left: 1px solid gray;
+    background: #f1f1f1
+}
+
+tbody:first-child tr:first-child th {
+    border-top: 1px solid gray
+}
+
+#interviewTest th {
+    background: #f1f1f1
+}
+
+#testQuestions td {
+    height: 1px;
+    padding: 0
+}
+
+#testQuestions td div {
+    height: 100%;
+    padding: 0 5px
+}
+
+#testQuestions td div:focus {
+    outline: 1px solid #4d90fe
+}
+
+#testResults .row:hover {
+    outline: 1px solid #4d90fe;
+    cursor: pointer
+}
+
+#testResults .collapse {
+    display: none
+}
+
+@-moz-document url-prefix() {
+    #testQuestions td {
+        height: 100%
+    }
+    #testQuestions td div {
+        display: table;
+        width: 100%;
+        padding: 0;
+        word-break: break-all
+    }
+}
+
+#testResults td {
+    padding: 8px 10px
+}
+
+#addRemoveQuestion label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 190px
+}
+
+#addRemoveQuestion input {
+    display: inline-block;
+    float: left
+}
+
+#addRemoveQuestion button {
+    float: left;
+    clear: left
+}
+
+#addRemoveQuestion textarea,
+#addRemoveQuestion label {
+    margin: 10px 0
+}
+
+#addRemoveQuestion textarea {
+    width: 40%
+}
+
+#addRemoveQuestion textarea::placeholder {
+    color: darkgray
+}
+
+@media screen and (max-width: 800px) {
+    #addAQuestion textarea {
+        width: 100%
+    }
+}
