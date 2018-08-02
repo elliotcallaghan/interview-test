@@ -1,0 +1,85 @@
+.page-template-template-interview-test .hero .entry-content {
+    margin-top: 80px
+}
+
+.page-template-template-interview-test .hero {
+    padding-bottom: 0
+}
+
+.page-template-template-interview-test .post-password-form {
+    text-align: center
+}
+
+.page-template-template-interview-test .text {
+    text-align: center
+}
+
+.page-template-template-interview-test input[type="text"] {
+    margin: 8px auto 14px;
+    width: 300px;
+    padding: 5px
+}
+
+.page-template-template-interview-test .test-error {
+    color: red;
+    text-align: center
+}
+
+.page-template-template-interview-test #startTest {
+    display: flex;
+    margin: 5px auto
+}
+
+.page-template-template-interview-test .loading {
+    width: 0
+}
+
+.page-template-template-interview-test .nav-bar {
+    margin: 0 auto 21px
+}
+
+.page-template-template-interview-test .nav-button {
+    background: #67abff;
+    color: white;
+    display: inline-block
+}
+
+.page-template-template-interview-test .nav-button:hover {
+    background: darkgray !important;
+    cursor: pointer
+}
+
+.page-template-template-interview-test h2 {
+    color: black
+}
+
+.page-template-template-interview-test .interview-questions .question {
+    margin-bottom: 20px;
+    display: none
+}
+
+.page-template-template-interview-test .nav-buttons,
+.page-template-template-interview-test .nav-buttons #testSubmit {
+    display: none
+}
+
+.page-template-template-interview-test .nav-buttons #testNext,
+.page-template-template-interview-test .nav-buttons #testPrev,
+.page-template-template-interview-test .nav-buttons #testSubmit {
+    user-select: none;
+    outline: none
+}
+
+.page-template-template-interview-test .nav-buttons #testNext,
+.page-template-template-interview-test .nav-buttons #testSubmit {
+    float: right;
+}
+
+.page-template-template-interview-test .interview-questions input,
+.page-template-template-interview-test .interview-questions label {
+    display: inline-block
+}
+
+.page-template-template-interview-test .interview-questions label {
+    margin-left: 10px
+}
